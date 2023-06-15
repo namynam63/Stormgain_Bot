@@ -13,8 +13,8 @@ from  random import randint
 
 with open ('settings.json') as config_file:
     config = json.load(config_file)
-stormgainemail = config['stormgain_email']
-stormgainpw = config['stormgain_pw']
+stormgainemail = config['kmnawa0@gmail.com']
+stormgainpw = config['Nawaz123']
 fromA = config['stormgainsleepMIN']
 toB = config['stormgainsleepMAX']
 path = os.getcwd()+'\\'
